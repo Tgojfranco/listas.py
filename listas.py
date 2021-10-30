@@ -1,7 +1,3 @@
-lista_alumnos=["mario","raul","josue","patricia","ignacio"] 
-lista_alumnos.sort()
-print(lista_alumnos[0])
-print(lista_alumnos)
-lista_alumnos.insert(-1,"martin")
-lista_alumnos.append("Laura")
-print(lista_alumnos)
+#tuplas 
+#las tuplas no se pueden modificar y las listas si
+s=(1,) #si solo quiero especificar un dato dentro de la tupla tengo que poner coma (,) despues del elemento
