@@ -21,3 +21,4 @@ print(lista_str[1:3]) #imprimimos los randos de el primer numero hasta el anteri
 print(listas_numero[0::2]) #imprime los numeros desde donde se especifica en rango de los que se indica(trae el dato uno de 2 en 2)
 print(listas_numero[::2]) #imprime todos los datos de 2 en 2 (depende el salto del ultimo numero)
 
+lista_str[0]="navidad"  #modifica el valor en la lista que especifiquemos 
