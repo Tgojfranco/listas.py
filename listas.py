@@ -22,3 +22,8 @@ print(listas_numero[0::2]) #imprime los numeros desde donde se especifica en ran
 print(listas_numero[::2]) #imprime todos los datos de 2 en 2 (depende el salto del ultimo numero)
 
 lista_str[0]="navidad"  #modifica el valor en la lista que especifiquemos 
+lista_str[1:2]=["happy","new"] #modifica un rango de datos en una lista el ultimo es n-1
+
+lista_str.insert(1,"Year") #inserta un elemento en la posicion que indiques y desplaza todos los demas elementos
+lista_extendida=lista_numero.extend(lista_str) # agrega los elementos de lista_str a la lista_numero en una nueva lista
+lista_extendida=lista_numero.extend(lista_str[0:3]) # agrega los elementos de lista_str del rango indicado a la lista_numero en una nueva lista
